@@ -1,0 +1,41 @@
+
+body{
+  background-color: black;
+  font-family: Helvetica;
+  color:black;
+  font-size: 12px;
+}
+
+header{
+  background-color:lightpink;
+  padding: 10px;
+  text-align: center;
+}
+
+p{
+  background-color: #87CEFA;
+  padding:10px;
+}
+
+ul {
+  list-style-type: none;
+  background-color:lavender;
+}
+
+li{
+  background-color:peachpuff;
+  padding: 10px;
+  margin: 2px;
+  width:200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+footer{
+  color:Black;
+  background-color: LightCyan;
+  padding:10px;
+}
