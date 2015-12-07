@@ -4,12 +4,15 @@ body{
   font-family: Helvetica;
   color:black;
   font-size: 12px;
+  margin: 20px;
 }
 
 header{
   background-color:lightpink;
   padding: 10px;
   text-align: center;
+
+
 }
 
 p{
@@ -31,6 +34,11 @@ li{
 
 a {
   text-decoration: none;
+  font-weight: bold;
+}
+
+a:visited {
+  color: black;
 }
 
 
@@ -38,4 +46,9 @@ footer{
   color:Black;
   background-color: LightCyan;
   padding:10px;
+  text-align: center;
+}
+
+.headerid {
+
 }
