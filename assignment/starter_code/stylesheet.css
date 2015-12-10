@@ -1,0 +1,54 @@
+body {
+  font-family: helvetica;
+  padding:20px;
+}
+
+.wrap{
+  width:900px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-transform:uppercase;
+  text-align: center;
+}
+
+h3 {
+  letter-spacing: 2px;
+}
+
+#text {
+  font-family: georgia;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.link{
+  text-align: center;
+}
+
+a {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  color:black;
+}
+
+a.current:link, a.current:visited {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+  color:black;
+}
+
+#about {
+  padding-top:20px;
+  width:480px;
+  float:left;
+}
+
+img {
+  float: right;
+  padding:5px;
+  border: 1px solid black;
+}
