@@ -1,10 +1,31 @@
 body {
   font-family: helvetica;
-  padding:20px;
 }
 
+hr.thick{
+  height:4px;
+  color:black;
+  background-color: black;
+  width:750px
+}
+
+hr.thin1{
+  color:black;
+  width:680px;
+  margin-left:30px;
+  margin-bottom:35px;
+}
+
+hr#thin2{
+  color:black;
+  width:450px;
+  margin-top:35px;
+  margin-right:15px;
+}
+
+
 .wrap{
-  width:900px;
+  width:750px;
   margin: 0 auto;
 }
 
@@ -13,11 +34,12 @@ h1 {
   text-align: center;
 }
 
+
 h3 {
   letter-spacing: 2px;
 }
 
-#text {
+.text {
   font-family: georgia;
   font-size: 16px;
   line-height: 25px;
@@ -42,13 +64,29 @@ a.current:link, a.current:visited {
 }
 
 #about {
-  padding-top:20px;
-  width:480px;
+  width:450px;
   float:left;
+  margin-left:37px;
 }
 
-img {
-  float: right;
+#experience {
+  width:750px;
+  margin:auto;
+}
+
+#portfolio{
+  margin:auto;
+}
+
+.imgdp {
   padding:5px;
   border: 1px solid black;
+  margin-left:37px;
+}
+
+.social{
+  margin:30px;
+  padding:10px;
+
+
 }
